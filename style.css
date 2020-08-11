@@ -1,0 +1,163 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#banner{
+	background-image: url("./img/banner/home-banner.jpg");
+	background-size: cover;
+	height: 830px;
+	width: 1470px;
+}
+#menuLogo{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+#logo{
+	position: absolute;
+	left: 150px;
+	top: 30px;
+}
+#logo:hover{
+	cursor: pointer;
+}
+#menu{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	right: 200px;
+	justify-content: space-between;
+	height: 20px;
+	width: 500px;
+	top: 50px;
+}
+.menuText{
+	font-size: 16px;
+	color: #002347;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.menuText:hover{
+	color: #fdc632;
+	cursor: pointer;
+}
+
+.fa-search:hover{
+	cursor: pointer;
+}
+
+#PagesHover{
+	display: none;
+}
+#menu #pages:hover #PagesHover{
+	position: absolute;
+	/*border: black solid;*/
+	height: 130px;
+	width: 200px;
+	right: 115px;
+	top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: white;
+}
+.pageMenu{
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#BlogHover{
+	display:none;
+}
+#BlogHover{
+	display:none;
+}
+
+#blog:hover #BlogHover{
+	position: absolute;
+	/*border: black solid;*/
+	height: 100px;
+	width: 190px;
+	right: 20px;
+	top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+}
+
+#marketing{
+	position: absolute;
+	top: 220px;
+	left: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+#marketing h1{
+	font-size: 20px;
+	align-self: center;
+	color: #002347;
+	font-family: sans-serif;
+}
+
+#marketing h2{
+	font-size: 45px;
+	color: #002347;
+	font-family: sans-serif;
+}
+
+#moreAndCourse{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#learnMore{
+	border-style: solid;
+	border-color: white;
+	border-width: 0px;
+	height: 40px;
+	width: 130px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #fdc632;
+	background-color: #002347;
+	padding-top: 18px;
+	padding-left: 30px;
+	font-family: sans-serif;
+}
+
+#seeCourse{
+	border-style: solid;
+	border-color: white;
+	border-width: 0px;
+	height: 40px;
+	width: 130px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #002347;
+	background-color: #fdc632;
+	padding-top: 18px;
+	padding-left: 35px;
+	font-family: sans-serif;
+	margin-left: 10px;
+}
+
+#learnMore:hover{
+	background-color: white;
+	color: #002347;
+}
+
+#seeCourse:hover{
+	background-color: #002347;
+	color: #fdc632;
+}
